@@ -32,9 +32,9 @@ Basic website that allows users to add/remove books from a list.
 
  
 👤 **Tonny Tei**
--Github: [@teitonny](https://github.com/teitonny)
--Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
--linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
+- Github: [@teitonny](https://github.com/teitonny)
+- Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
+- linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/)
 
 
  

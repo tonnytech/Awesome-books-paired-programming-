@@ -29,9 +29,11 @@ Basic website that allows users to add/remove books from a list.
 - Github: [@TayyabKM](https://github.com/TayyabKM)
 - Twitter: [@TayyabI83126361](https://twitter.com/TayyabI83126361)
 - Linkedin: [@tayyab-irfan-01b72b1aa](https://www.linkedin.com/in/tayyab-irfan-01b72b1aa/)
-
- // add details here 
-
+ 
+👤 **Tonny Tei**
+- Github: [@teitonny](https://github.com/teitonny)
+- Twiter: [@TonnyTei](https://twitter.com/TonnyTei)
+- linkedIn: [TonnyTei](https://www.linkedin.com/in/tonny-tei-38a4771a0/
 
  
 ## 🤝 Contributing

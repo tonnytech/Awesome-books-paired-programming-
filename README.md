@@ -2,18 +2,18 @@
 
 # Awesome Books Basic Javascript
 
-> Description the project.
-Basic website that allows users to add/remove books from a list.
+
+A basic website that allows you to add and remove books. There has been added styling to match the provided template using Bootstrap. Classes and methods were used in this project instead of objects and arrays.
 
 ## Built With
 
-- Major languages
---  HTML
---  CSS
---  Javascript
+## Major languages
+-  HTML
+-  CSS
+-  Javascript
 
-- Technologies used
---GitHub
+## Technologies used
+- GitHub
 
 
 ## Instuctions to set up project locally

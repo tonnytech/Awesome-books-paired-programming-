@@ -122,14 +122,21 @@ const addForm = document.querySelector('#add-books-form');
 contact.addEventListener('click', (e)=> {
   e.preventDefault();
   contactForm.style.display ="block"
-  FormAndList.style.display ="none";
-  listOfBooks.styles.display = "none";
-
+  addForm.style.display = 'none';
+  listOfBooks.style.display = "none";
 });
 
-addListContent.addEventListener('click', (s) => {
-  s.preventDefault();
+addListContent.addEventListener('click', (e) => {
+  e.preventDefault();
   contactForm.style.display = 'none';
   addForm.style.display='block';
-  listOfBooks.styles.display = "none";
-})
+  listOfBooks.style.display = "none";
+});
+
+list.addEventListener('click', () => {
+    addForm.style.display = 'none';
+  contactForm.style.display = 'none';
+  contactForm.style.display ="none";
+  listOfBooks.style.display = "block";
+});
+

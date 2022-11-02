@@ -32,10 +32,8 @@ nav button{
   border: 2px solid black;
 }
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

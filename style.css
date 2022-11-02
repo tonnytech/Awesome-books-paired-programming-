@@ -7,6 +7,35 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+nav button{
+  border: none;
+  background-color: none;
+  background-color: unset;
+}
+
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
 #book-list {
   border: 2px solid black;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }

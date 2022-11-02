@@ -104,3 +104,28 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   //  Remove book from store
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
+
+// nav-links
+
+const list = document.querySelector('#list');
+const addListContent = document.querySelector('#add-new');
+const contact = document.querySelector('#contact');
+
+// forms to display and hide
+
+const FormAndList = document.querySelector('#form-and-list');
+const contactForm = document.querySelector('#contact-form');
+
+
+contact.addEventListener('click', (e)=> {
+  e.preventDefault();
+  contactForm.style.display ="block"
+  FormAndList.style.display ="none"
+
+});
+
+addListContent = addEventListener('click', (e) => {
+  e.preventDefault();
+  FormAndList.style.display ='block';
+  contactForm.style.display = 'none';
+})

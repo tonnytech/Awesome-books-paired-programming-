@@ -115,17 +115,21 @@ const contact = document.querySelector('#contact');
 
 const FormAndList = document.querySelector('#form-and-list');
 const contactForm = document.querySelector('#contact-form');
+const listOfBooks = document.querySelector('#list-section');
+const addForm = document.querySelector('#add-books-form');
 
 
 contact.addEventListener('click', (e)=> {
   e.preventDefault();
   contactForm.style.display ="block"
-  FormAndList.style.display ="none"
+  FormAndList.style.display ="none";
+  listOfBooks.styles.display = "none";
 
 });
 
-addListContent = addEventListener('click', (e) => {
-  e.preventDefault();
-  FormAndList.style.display ='block';
+addListContent.addEventListener('click', (s) => {
+  s.preventDefault();
   contactForm.style.display = 'none';
+  addForm.style.display='block';
+  listOfBooks.styles.display = "none";
 })

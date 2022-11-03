@@ -37,3 +37,7 @@ nav button{
   align-items: center;
   justify-content: center;
 }
+.time {
+  display: flex;
+  justify-content: flex-end;
+}

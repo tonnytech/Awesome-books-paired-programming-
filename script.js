@@ -117,6 +117,13 @@ const FormAndList = document.querySelector('#form-and-list');
 const contactForm = document.querySelector('#contact-form');
 const listOfBooks = document.querySelector('#list-section');
 const addForm = document.querySelector('#add-books-form');
+const theTime = document.querySelector('#time-section');
+
+const showDateTime = () => {
+  const mytime =new Date();
+  const currentTime = mytime.toUTCString();
+  theTime.textContent = currentTime;
+}
 
 
 contact.addEventListener('click', (e)=> {
@@ -124,7 +131,7 @@ contact.addEventListener('click', (e)=> {
   contactForm.style.display ="block"
   addForm.style.display = 'none';
   listOfBooks.style.display = "none";
-});
+  });
 
 addListContent.addEventListener('click', (e) => {
   e.preventDefault();
@@ -140,3 +147,6 @@ list.addEventListener('click', () => {
   listOfBooks.style.display = "block";
 });
 
+window.onload = () => {
+  showDateTime();
+}

@@ -146,7 +146,3 @@ list.addEventListener('click', () => {
   contactForm.style.display ="none";
   listOfBooks.style.display = "block";
 });
-
-window.onload = () => {
-  showDateTime();
-}

@@ -131,7 +131,7 @@ contact.addEventListener('click', (e)=> {
   contactForm.style.display ="block"
   addForm.style.display = 'none';
   listOfBooks.style.display = "none";
-  });
+});
 
 addListContent.addEventListener('click', (e) => {
   e.preventDefault();
@@ -146,3 +146,7 @@ list.addEventListener('click', () => {
   contactForm.style.display ="none";
   listOfBooks.style.display = "block";
 });
+
+window.onload = () => { 
+  showDateTime(); 
+}

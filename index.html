@@ -9,31 +9,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container mt-4">
-        <h1 class="display-4 text-center">All Awesome Books</h1>
-        <table class="table table-striped mt-5">
-            
-            <tbody id="book-list"></tbody>
+    <nav>
+        <div class="logo"><button>Awesome Books</button></div>
 
-        </table>
+        <ul class="nav-list">
+            <li><button id="list">list</button></li>
+            <li><button id="add-new">Add New</button></li>
+            <li><button id="contact">Contact</button></li>
+        </ul>
+    </nav>
+
+    <div class="time"><span id="time-section"> Current Time</span></div>
+    <div class="container mt-4" id="form-and-list">
+        <div id="list-section">
+            <h1 class="display-4 text-center">All Awesome Books</h1>
+            <table class="table table-striped mt-5" id="display-book-list">
+                
+                <tbody id="book-list"></tbody>
+
+            </table>
+        </div>
 
         <hr>
-        <h2 class="text-center">Add a New Book</h2>
-        <form id="book-form">
-            <div class="form-group">
-                <label for="title">Title</label>
-                <input type="text" id="title" class="form-control">
-            </div>
-            <div class="form-group">
-                <label for="author">Author</label>
-                <input type="text" id="author" class="form-control">
-            </div>
-            <div class="buttonDiv text-center mt-4">
-            <input type="submit" value="Add Book" class="btn btn-primary">
-            </div>
-        </form>
-        
+
+        <div id="add-books-form">
+            <h2 class="text-center">Add a New Book</h2>
+            <form id="book-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" class="form-control">
+                </div>
+                <div class="buttonDiv text-center mt-4">
+                <input type="submit" value="Add Book" class="btn btn-primary">
+                </div>
+            </form>
+        </div>      
     </div>
+    <section class="contact-container">
+        <div class="contact" id="contact-form"> 
+            <h1> Contact information </h1>
+            <p> Do you have any question or you just want to say hello?</p>
+            <ul>
+                <li>our mail@gmail.com</li>
+                <li> our phone number: +00123456879</li>
+                <li>Our adress: Ohaio 22, 40400 nairobi Kenya</li>
+            </ul>
+        </div>
+    </section>
+
+
     <script src="script.js"></script>
 </body>
 </html>

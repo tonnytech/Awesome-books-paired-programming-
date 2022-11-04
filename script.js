@@ -104,3 +104,49 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   //  Remove book from store
   Store.removeBook(e.target.parentElement.previousElementSibling.textContent);
 });
+
+// nav-links
+
+const list = document.querySelector('#list');
+const addListContent = document.querySelector('#add-new');
+const contact = document.querySelector('#contact');
+
+// forms to display and hide
+
+const FormAndList = document.querySelector('#form-and-list');
+const contactForm = document.querySelector('#contact-form');
+const listOfBooks = document.querySelector('#list-section');
+const addForm = document.querySelector('#add-books-form');
+const theTime = document.querySelector('#time-section');
+
+const showDateTime = () => {
+  const mytime =new Date();
+  const currentTime = mytime.toUTCString();
+  theTime.textContent = currentTime;
+}
+
+
+contact.addEventListener('click', (e)=> {
+  e.preventDefault();
+  contactForm.style.display ="block"
+  addForm.style.display = 'none';
+  listOfBooks.style.display = "none";
+});
+
+addListContent.addEventListener('click', (e) => {
+  e.preventDefault();
+  contactForm.style.display = 'none';
+  addForm.style.display='block';
+  listOfBooks.style.display = "none";
+});
+
+list.addEventListener('click', () => {
+    addForm.style.display = 'none';
+  contactForm.style.display = 'none';
+  contactForm.style.display ="none";
+  listOfBooks.style.display = "block";
+});
+
+window.onload = () => { 
+  showDateTime(); 
+}

@@ -5,6 +5,10 @@
 
 A basic website that allows you to add and remove books. There has been added styling to match the provided template using Bootstrap. Classes and methods were used in this project instead of objects and arrays.
 
+## Live demo
+
+https://teitonny.github.io/Awesome-books-paired-programming-/
+
 ## Built With
 
 ## Major languages

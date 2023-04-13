@@ -7,7 +7,7 @@ A basic website that allows you to add and remove books. There has been added st
 
 ## Live demo
 
-<a href="https://teitonny.github.io/Awesome-books-paired-programming-/"> click here to see live version</a>
+[click here to see live version](https://tonnytech.github.io/Awesome-books-paired-programming-/)
 
 ## Built With
 
